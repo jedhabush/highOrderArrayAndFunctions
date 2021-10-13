@@ -23,20 +23,20 @@ sort()
 
 //forEach is similar to for lpop
 
-// start with for loop
-/*
+// start with for loop solution to get companies
+
 for (let i = 0; i < companies.length; i++) {
   console.log(companies[i]); // at each iteratoin we add one and print the result
 }
-*/
-/*
-// forEach is a syncronous callback function
+
+
+// forEach is a synchronous callback function
  console.log(`----- forEach------`);
 companies.forEach(function (companies) {
   console.log(companies);
   console.log(companies.name);
 });
-*/
+
 //**************************************************
 
 //  ************ filter : is to filter things out of the array under condition
